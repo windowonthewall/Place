@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     
 <script src = "sdk/blippar-webar-sdk-v1.7.3/webar-sdk/webar-sdk-v1.7.3.min.js?license-key=dff77316-002f-4004-9a26-6ed9bbe4a809"
-webar-mode="surface-tracking"
+webar-mode="marker-tracking"
 static-camera = "false"
 auto-start="false"
 auto-init="false"
 enable-photo-ui="false"
-render-scene-on-desktop="false"
+render-scene-on-desktop= "false"
 show-qr-card-on-desktop="false"
-enable-tracking-on-desktop= "false"
-enable-mirroring-on-desktop= "false"
+enable-tracking-on-desktop="false"
+enable-mirroring-on-desktop="false"
 hide-reset-button="false"
 auto-marker-detection ="true"
 show-guide-animation-url=""
@@ -87,7 +87,7 @@ scan-btn-progress-circle-cx-coordinate="50%"
 scan-btn-progress-circle-cy-coordinate="50%"
 scan-btn-progress-circle-radius="35"
 scan-btn-progress-circle-style="fill: none; stroke: cyan; stroke-width: 6;"
-ios-camera-permission="true"
+ios-camera-permission= "false"
 auto-scan-instruction-idle-on-desktop="Reload to detect a marker"
 
 show-guide-view="true"></script>
@@ -102,7 +102,7 @@ show-guide-view="true"></script>
 var Yrotvalue = undefined;
 var UNITYINSTANCE = undefined;
 const cameraObjectName = "webarCamera";
-const stageObjectName = "webarStage";
+const stageObjectName = "3e634294-4bea-41c1-b2d1-3f267fbf706e";
       const buildUrl = "Build";
       const loaderUrl = buildUrl + "/WebAR-ARBlipparImage.loader.js";
       const config = {
